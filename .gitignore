@@ -1,0 +1,6 @@
+cmake_project/.idea/
+cmake_project/CMakeCache.txt
+cmake_project/CMakeFiles/
+cmake_project/Makefile
+cmake_project/chessgo
+cmake_project/cmake_install.cmake
