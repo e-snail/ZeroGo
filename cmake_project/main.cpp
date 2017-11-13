@@ -9,6 +9,11 @@ int main()
 	ChessType type = goChess->getChessType();
 
 	std::cout<<"Chess Type: " <<EnumChessTypeName[type+1] <<std::endl;
+
+	goChess->setChessType(WHITE);
+	type = goChess->getChessType();
+	std::cout<<"Chess Type: " <<EnumChessTypeName[type+1] <<std::endl;
+
 	delete goChess;
 
     return 0;

@@ -16,7 +16,7 @@ class GoChess
         virtual ~GoChess();
 
         ChessType getChessType() const;
-
+        void setChessType(const ChessType type);
     protected:
 
     private:
